@@ -2,7 +2,7 @@
 
 ### Description
 
-> I decided to make a small flappy bird game but in a different theme so I could practice javascript. This is the link: (if it is not here, it's not finished
+> I decided to make a small flappy bird game but in a different theme so I could practice javascript. This is the link: (if it is not here, it's not finished)
 
 ### How to play
 
