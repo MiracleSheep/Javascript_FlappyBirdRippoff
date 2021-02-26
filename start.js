@@ -103,7 +103,7 @@ class bird {
     fill(255);
 
 
-    rect(this.x, this.y, this.length, this.width);
+  
     image(img2,this.x, this.y, this.length, this.width);
 
     if (keyIsPressed && keyCode == UP_ARROW) {
