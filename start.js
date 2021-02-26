@@ -67,6 +67,7 @@ class pillar {
     rect(this.x,0,this.width,this.l1);
     rect(this.x,this.y,this.width,this.l2);
 
+
   
     this.x -= scrollSpeed;
 
@@ -100,7 +101,10 @@ class bird {
   drawe() {
 
     fill(255);
-    rect(this.x,this.y,this.length,this.width);
+
+
+    rect(this.x, this.y, this.length, this.width);
+    image(img2,this.x, this.y, this.length, this.width);
 
     if (keyIsPressed && keyCode == UP_ARROW) {
       this.y += velocity + gravity;
@@ -136,8 +140,8 @@ function Random(min, max) {
 
 
 var Start = new optionButton({
-  x: 160,
-  y: 170,
+  x: 200,
+  y: 200,
   width: 50,
   height: 64,
   color1: 255,
@@ -148,6 +152,25 @@ var Start = new optionButton({
     startsc = 2;
     rectMode(CORNER);
   }
+
+
+});
+
+var Restart = new optionButton({
+  x: 200,
+  y: 300,
+  width:100,
+  length:50,
+  color1:6,
+  color2:191,
+  color3:77,
+  label: "Restart?",
+  onClick: function() {
+    startsc = 2;
+    rectMode(CORNER);
+  }
+
+
 
 
 });
